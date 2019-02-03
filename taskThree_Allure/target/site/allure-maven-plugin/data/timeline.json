@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "LAPTOP-VA26MCEB",
+    "threads" : [ {
+      "title" : "4108@LAPTOP-VA26MCEB.main(1)",
+      "testCases" : [ {
+        "uid" : "49eb85deb3391c6",
+        "name" : "testTravelInsurance",
+        "title" : "Test travel insurance",
+        "time" : {
+          "start" : 1549206859940,
+          "stop" : 1549206898679,
+          "duration" : 38739
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

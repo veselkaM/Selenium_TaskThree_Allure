@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1549206859940,
+    "stop" : 1549206898679,
+    "duration" : 38739
+  },
+  "testSuites" : [ {
+    "uid" : "2e20f1f1dd6b3564",
+    "name" : "InsuranceTravelTest",
+    "title" : "Insurance travel test",
+    "time" : {
+      "start" : 1549206859940,
+      "stop" : 1549206898679,
+      "duration" : 38739
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "49eb85deb3391c6",
+      "name" : "testTravelInsurance",
+      "title" : "Test travel insurance",
+      "time" : {
+        "start" : 1549206859940,
+        "stop" : 1549206898679,
+        "duration" : 38739
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

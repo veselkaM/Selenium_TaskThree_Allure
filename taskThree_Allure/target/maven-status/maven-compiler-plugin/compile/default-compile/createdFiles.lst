@@ -1,0 +1,13 @@
+pages\InshurePage.class
+steps\NavigationSteps.class
+models\InsuredData.class
+util\TestProperties.class
+pages\HalperBase.class
+steps\InsuranceRegistrationSteps.class
+steps\InsuranceSelectionSteps.class
+util\AllureListener.class
+steps\BaseSteps.class
+steps\InshureSteps.class
+pages\InsuranceRegistrationPage.class
+pages\NavigationHelper.class
+pages\InsuranceSelectionPage.class
