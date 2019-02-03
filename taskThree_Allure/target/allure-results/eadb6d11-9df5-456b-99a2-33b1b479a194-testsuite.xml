@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1549231987918" stop="1549232014727" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>InsuranceTravelTest</name>
+    <test-cases>
+        <test-case start="1549231987952" stop="1549232014709" status="passed">
+            <name>testTravelInsurance</name>
+            <steps>
+                <step start="1549231997839" stop="1549231999823" status="passed">
+                    <name>selectMenuItem[Страхование]</name>
+                    <title>выбран пункт меню Страхование</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549231999825" stop="1549232004529" status="passed">
+                    <name>selectSubMenuItem[Путешествия и покупки]</name>
+                    <title>выбран вид страхования Путешествия и покупки</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549232004531" stop="1549232004996" status="passed">
+                    <name>checkPageTitle[Страхование путешественников]</name>
+                    <title>заголовок страницы - равен Страхование путешественников</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549232004999" stop="1549232005447" status="passed">
+                    <name>goToSendAppPage</name>
+                    <title>выполнено нажатие на Оформить Онлайн</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549232005448" stop="1549232005500" status="passed">
+                    <name>getNewTab</name>
+                    <title>выполнен переход на соседнюю вкладку</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549232005501" stop="1549232010275" status="passed">
+                    <name>chooseMinimalPackage</name>
+                    <title>Выбрана сумму страховой защиты – Минимальная</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549232010275" stop="1549232010603" status="passed">
+                    <name>clickCheckoutButton</name>
+                    <title>выполнено нажатие на Оформить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549232010603" stop="1549232013542" status="passed">
+                    <name>fillFields[{Серия паспорта=4444, Имя страхователя=ИМЯ, Номер паспорта=444444, Имя застрахованного=INSUREDNAME, Фамилия с...]</name>
+                    <title>заполняются поля</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549232010606" stop="1549232010800" status="passed">
+                            <name>fillField[Серия паспорта, 4444]</name>
+                            <title>поле Серия паспорта заполняется значением 4444</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232010800" stop="1549232011000" status="passed">
+                            <name>fillField[Имя страхователя, ИМЯ]</name>
+                            <title>поле Имя страхователя заполняется значением ИМЯ</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232011003" stop="1549232011349" status="passed">
+                            <name>fillField[Номер паспорта, 444444]</name>
+                            <title>поле Номер паспорта заполняется значением 444444</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232011350" stop="1549232011784" status="passed">
+                            <name>fillField[Имя застрахованного, INSUREDNAME]</name>
+                            <title>поле Имя застрахованного заполняется значением INSUREDNAME</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232011785" stop="1549232011995" status="passed">
+                            <name>fillField[Фамилия страхователя, ФАМИЛИЯ]</name>
+                            <title>поле Фамилия страхователя заполняется значением ФАМИЛИЯ</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232011995" stop="1549232012219" status="passed">
+                            <name>fillField[Отчество страхователя, ОТЧЕСТВО]</name>
+                            <title>поле Отчество страхователя заполняется значением ОТЧЕСТВО</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232012220" stop="1549232012492" status="passed">
+                            <name>fillField[Фамилия застрахованного, INSUREDSURNAME]</name>
+                            <title>поле Фамилия застрахованного заполняется значением INSUREDSURNAME</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232012493" stop="1549232012682" status="passed">
+                            <name>fillField[Место выдачи паспорта, ОВД ГОЛЬЯНОВО]</name>
+                            <title>поле Место выдачи паспорта заполняется значением ОВД ГОЛЬЯНОВО</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232012682" stop="1549232013087" status="passed">
+                            <name>fillField[Дата рождения застрахованного, 22.07.1992]</name>
+                            <title>поле Дата рождения застрахованного заполняется значением 22.07.1992</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013087" stop="1549232013330" status="passed">
+                            <name>fillField[Дата рождения страхователя, 22.07.1991]</name>
+                            <title>поле Дата рождения страхователя заполняется значением 22.07.1991</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013331" stop="1549232013542" status="passed">
+                            <name>fillField[Дата выдачи паспорта, 20.06.2016]</name>
+                            <title>поле Дата выдачи паспорта заполняется значением 20.06.2016</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549232013542" stop="1549232013648" status="passed">
+                    <name>chooseFemale</name>
+                    <title>выбран женский пол</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549232013649" stop="1549232013887" status="passed">
+                    <name>checkInsuranceForm[{Серия паспорта=4444, Имя страхователя=ИМЯ, Номер паспорта=444444, Имя застрахованного=INSUREDNAME, Ф...]</name>
+                    <title>поля заполнены верно</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1549232013650" stop="1549232013684" status="passed">
+                            <name>checkFillField[Серия паспорта, 4444]</name>
+                            <title>поле Серия паспорта заполнено значением 4444</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013684" stop="1549232013708" status="passed">
+                            <name>checkFillField[Имя страхователя, ИМЯ]</name>
+                            <title>поле Имя страхователя заполнено значением ИМЯ</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013709" stop="1549232013727" status="passed">
+                            <name>checkFillField[Номер паспорта, 444444]</name>
+                            <title>поле Номер паспорта заполнено значением 444444</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013728" stop="1549232013745" status="passed">
+                            <name>checkFillField[Имя застрахованного, INSUREDNAME]</name>
+                            <title>поле Имя застрахованного заполнено значением INSUREDNAME</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013745" stop="1549232013763" status="passed">
+                            <name>checkFillField[Фамилия страхователя, ФАМИЛИЯ]</name>
+                            <title>поле Фамилия страхователя заполнено значением ФАМИЛИЯ</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013763" stop="1549232013785" status="passed">
+                            <name>checkFillField[Отчество страхователя, ОТЧЕСТВО]</name>
+                            <title>поле Отчество страхователя заполнено значением ОТЧЕСТВО</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013786" stop="1549232013799" status="passed">
+                            <name>checkFillField[Фамилия застрахованного, INSUREDSURNAME]</name>
+                            <title>поле Фамилия застрахованного заполнено значением INSUREDSURNAME</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013800" stop="1549232013816" status="passed">
+                            <name>checkFillField[Место выдачи паспорта, ОВД ГОЛЬЯНОВО]</name>
+                            <title>поле Место выдачи паспорта заполнено значением ОВД ГОЛЬЯНОВО</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013817" stop="1549232013842" status="passed">
+                            <name>checkFillField[Дата рождения застрахованного, 22.07.1992]</name>
+                            <title>поле Дата рождения застрахованного заполнено значением 22.07.1992</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013843" stop="1549232013865" status="passed">
+                            <name>checkFillField[Дата рождения страхователя, 22.07.1991]</name>
+                            <title>поле Дата рождения страхователя заполнено значением 22.07.1991</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1549232013866" stop="1549232013887" status="passed">
+                            <name>checkFillField[Дата выдачи паспорта, 20.06.2016]</name>
+                            <title>поле Дата выдачи паспорта заполнено значением 20.06.2016</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1549232013888" stop="1549232013982" status="passed">
+                    <name>conformInsuranceForm</name>
+                    <title>выполнено нажатие на Оформить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1549232013982" stop="1549232014023" status="passed">
+                    <name>checkErrorMassage[Заполнены не все обязательные поля]</name>
+                    <title>Присутствует сообщение об ошибке Заполнены не все обязательные поля</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="LAPTOP-VA26MCEB"/>
+                <label name="thread" value="7140@LAPTOP-VA26MCEB.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1549206859940,
-        "stop" : 1549206898679,
-        "duration" : 38739
+        "start" : 1549231987952,
+        "stop" : 1549232014709,
+        "duration" : 26757
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "2e20f1f1dd6b3564",
+        "uid" : "f7280531cb737ad7",
         "title" : "Insurance travel test",
         "statistic" : {
           "total" : 1,

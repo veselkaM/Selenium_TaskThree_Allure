@@ -1,0 +1,557 @@
+{
+  "uid" : "178e432dd730e5a0",
+  "name" : "testTravelInsurance",
+  "title" : "Test travel insurance",
+  "time" : {
+    "start" : 1549231987952,
+    "stop" : 1549232014709,
+    "duration" : 26757
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 34
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f7280531cb737ad7",
+    "name" : "InsuranceTravelTest",
+    "title" : "Insurance travel test"
+  },
+  "steps" : [ {
+    "name" : "selectMenuItem[Страхование]",
+    "title" : "выбран пункт меню Страхование",
+    "time" : {
+      "start" : 1549231997839,
+      "stop" : 1549231999823,
+      "duration" : 1984
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectSubMenuItem[Путешествия и покупки]",
+    "title" : "выбран вид страхования Путешествия и покупки",
+    "time" : {
+      "start" : 1549231999825,
+      "stop" : 1549232004529,
+      "duration" : 4704
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkPageTitle[Страхование путешественников]",
+    "title" : "заголовок страницы - равен Страхование путешественников",
+    "time" : {
+      "start" : 1549232004531,
+      "stop" : 1549232004996,
+      "duration" : 465
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToSendAppPage",
+    "title" : "выполнено нажатие на Оформить Онлайн",
+    "time" : {
+      "start" : 1549232004999,
+      "stop" : 1549232005447,
+      "duration" : 448
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getNewTab",
+    "title" : "выполнен переход на соседнюю вкладку",
+    "time" : {
+      "start" : 1549232005448,
+      "stop" : 1549232005500,
+      "duration" : 52
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "chooseMinimalPackage",
+    "title" : "Выбрана сумму страховой защиты – Минимальная",
+    "time" : {
+      "start" : 1549232005501,
+      "stop" : 1549232010275,
+      "duration" : 4774
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickCheckoutButton",
+    "title" : "выполнено нажатие на Оформить",
+    "time" : {
+      "start" : 1549232010275,
+      "stop" : 1549232010603,
+      "duration" : 328
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "fillFields[{Серия паспорта=4444, Имя страхователя=ИМЯ, Номер паспорта=444444, Имя застрахованного=INSUREDNAME, Фамилия с...]",
+    "title" : "заполняются поля",
+    "time" : {
+      "start" : 1549232010603,
+      "stop" : 1549232013542,
+      "duration" : 2939
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillField[Серия паспорта, 4444]",
+      "title" : "поле Серия паспорта заполняется значением 4444",
+      "time" : {
+        "start" : 1549232010606,
+        "stop" : 1549232010800,
+        "duration" : 194
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Имя страхователя, ИМЯ]",
+      "title" : "поле Имя страхователя заполняется значением ИМЯ",
+      "time" : {
+        "start" : 1549232010800,
+        "stop" : 1549232011000,
+        "duration" : 200
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Номер паспорта, 444444]",
+      "title" : "поле Номер паспорта заполняется значением 444444",
+      "time" : {
+        "start" : 1549232011003,
+        "stop" : 1549232011349,
+        "duration" : 346
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Имя застрахованного, INSUREDNAME]",
+      "title" : "поле Имя застрахованного заполняется значением INSUREDNAME",
+      "time" : {
+        "start" : 1549232011350,
+        "stop" : 1549232011784,
+        "duration" : 434
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Фамилия страхователя, ФАМИЛИЯ]",
+      "title" : "поле Фамилия страхователя заполняется значением ФАМИЛИЯ",
+      "time" : {
+        "start" : 1549232011785,
+        "stop" : 1549232011995,
+        "duration" : 210
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Отчество страхователя, ОТЧЕСТВО]",
+      "title" : "поле Отчество страхователя заполняется значением ОТЧЕСТВО",
+      "time" : {
+        "start" : 1549232011995,
+        "stop" : 1549232012219,
+        "duration" : 224
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Фамилия застрахованного, INSUREDSURNAME]",
+      "title" : "поле Фамилия застрахованного заполняется значением INSUREDSURNAME",
+      "time" : {
+        "start" : 1549232012220,
+        "stop" : 1549232012492,
+        "duration" : 272
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Место выдачи паспорта, ОВД ГОЛЬЯНОВО]",
+      "title" : "поле Место выдачи паспорта заполняется значением ОВД ГОЛЬЯНОВО",
+      "time" : {
+        "start" : 1549232012493,
+        "stop" : 1549232012682,
+        "duration" : 189
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата рождения застрахованного, 22.07.1992]",
+      "title" : "поле Дата рождения застрахованного заполняется значением 22.07.1992",
+      "time" : {
+        "start" : 1549232012682,
+        "stop" : 1549232013087,
+        "duration" : 405
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата рождения страхователя, 22.07.1991]",
+      "title" : "поле Дата рождения страхователя заполняется значением 22.07.1991",
+      "time" : {
+        "start" : 1549232013087,
+        "stop" : 1549232013330,
+        "duration" : 243
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата выдачи паспорта, 20.06.2016]",
+      "title" : "поле Дата выдачи паспорта заполняется значением 20.06.2016",
+      "time" : {
+        "start" : 1549232013331,
+        "stop" : 1549232013542,
+        "duration" : 211
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "chooseFemale",
+    "title" : "выбран женский пол",
+    "time" : {
+      "start" : 1549232013542,
+      "stop" : 1549232013648,
+      "duration" : 106
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkInsuranceForm[{Серия паспорта=4444, Имя страхователя=ИМЯ, Номер паспорта=444444, Имя застрахованного=INSUREDNAME, Ф...]",
+    "title" : "поля заполнены верно",
+    "time" : {
+      "start" : 1549232013649,
+      "stop" : 1549232013887,
+      "duration" : 238
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 11
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkFillField[Серия паспорта, 4444]",
+      "title" : "поле Серия паспорта заполнено значением 4444",
+      "time" : {
+        "start" : 1549232013650,
+        "stop" : 1549232013684,
+        "duration" : 34
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Имя страхователя, ИМЯ]",
+      "title" : "поле Имя страхователя заполнено значением ИМЯ",
+      "time" : {
+        "start" : 1549232013684,
+        "stop" : 1549232013708,
+        "duration" : 24
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Номер паспорта, 444444]",
+      "title" : "поле Номер паспорта заполнено значением 444444",
+      "time" : {
+        "start" : 1549232013709,
+        "stop" : 1549232013727,
+        "duration" : 18
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Имя застрахованного, INSUREDNAME]",
+      "title" : "поле Имя застрахованного заполнено значением INSUREDNAME",
+      "time" : {
+        "start" : 1549232013728,
+        "stop" : 1549232013745,
+        "duration" : 17
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Фамилия страхователя, ФАМИЛИЯ]",
+      "title" : "поле Фамилия страхователя заполнено значением ФАМИЛИЯ",
+      "time" : {
+        "start" : 1549232013745,
+        "stop" : 1549232013763,
+        "duration" : 18
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Отчество страхователя, ОТЧЕСТВО]",
+      "title" : "поле Отчество страхователя заполнено значением ОТЧЕСТВО",
+      "time" : {
+        "start" : 1549232013763,
+        "stop" : 1549232013785,
+        "duration" : 22
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Фамилия застрахованного, INSUREDSURNAME]",
+      "title" : "поле Фамилия застрахованного заполнено значением INSUREDSURNAME",
+      "time" : {
+        "start" : 1549232013786,
+        "stop" : 1549232013799,
+        "duration" : 13
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Место выдачи паспорта, ОВД ГОЛЬЯНОВО]",
+      "title" : "поле Место выдачи паспорта заполнено значением ОВД ГОЛЬЯНОВО",
+      "time" : {
+        "start" : 1549232013800,
+        "stop" : 1549232013816,
+        "duration" : 16
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата рождения застрахованного, 22.07.1992]",
+      "title" : "поле Дата рождения застрахованного заполнено значением 22.07.1992",
+      "time" : {
+        "start" : 1549232013817,
+        "stop" : 1549232013842,
+        "duration" : 25
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата рождения страхователя, 22.07.1991]",
+      "title" : "поле Дата рождения страхователя заполнено значением 22.07.1991",
+      "time" : {
+        "start" : 1549232013843,
+        "stop" : 1549232013865,
+        "duration" : 22
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата выдачи паспорта, 20.06.2016]",
+      "title" : "поле Дата выдачи паспорта заполнено значением 20.06.2016",
+      "time" : {
+        "start" : 1549232013866,
+        "stop" : 1549232013887,
+        "duration" : 21
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "conformInsuranceForm",
+    "title" : "выполнено нажатие на Оформить",
+    "time" : {
+      "start" : 1549232013888,
+      "stop" : 1549232013982,
+      "duration" : 94
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkErrorMassage[Заполнены не все обязательные поля]",
+    "title" : "Присутствует сообщение об ошибке Заполнены не все обязательные поля",
+    "time" : {
+      "start" : 1549232013982,
+      "stop" : 1549232014023,
+      "duration" : 41
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "InsuranceTravelTest"
+  }, {
+    "name" : "thread",
+    "value" : "7140@LAPTOP-VA26MCEB.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-VA26MCEB"
+  } ],
+  "parameters" : [ ]
+}

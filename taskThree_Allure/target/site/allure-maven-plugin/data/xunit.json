@@ -1,17 +1,17 @@
 {
   "time" : {
-    "start" : 1549206859940,
-    "stop" : 1549206898679,
-    "duration" : 38739
+    "start" : 1549231987952,
+    "stop" : 1549232014709,
+    "duration" : 26757
   },
   "testSuites" : [ {
-    "uid" : "2e20f1f1dd6b3564",
+    "uid" : "f7280531cb737ad7",
     "name" : "InsuranceTravelTest",
     "title" : "Insurance travel test",
     "time" : {
-      "start" : 1549206859940,
-      "stop" : 1549206898679,
-      "duration" : 38739
+      "start" : 1549231987952,
+      "stop" : 1549232014709,
+      "duration" : 26757
     },
     "statistic" : {
       "total" : 1,
@@ -23,13 +23,13 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "49eb85deb3391c6",
+      "uid" : "178e432dd730e5a0",
       "name" : "testTravelInsurance",
       "title" : "Test travel insurance",
       "time" : {
-        "start" : 1549206859940,
-        "stop" : 1549206898679,
-        "duration" : 38739
+        "start" : 1549231987952,
+        "stop" : 1549232014709,
+        "duration" : 26757
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
